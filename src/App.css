@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+.contenedor {
+  background-color: #1e293b; /* Un gris azulado un poco más claro */
+  padding: 2rem;
+  min-height: 100vh;
+  
+  /* Nuevas propiedades para centrar con Flexbox */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Inter', sans-serif; /* ¡Nuestra nueva fuente! */
+}
+
+.titulo {
+  color: #93c5fd; /* Un celeste claro */
+  font-size: 3rem; 
+  font-weight: bold;
+  margin-bottom: 1.5rem; /* Añadimos un poco de espacio debajo */
+}
+
+.contenedor-form {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-ciudad {
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  border: none;
+  font-size: 1rem;
+  width: 300px;
+}
+
+.btn-buscar {
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: #3b82f6; /* un azul bonito */
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.texto-debug {
+  margin-top: 2rem;
+  color: rgb(147, 23, 23);
+  font-size: 1.25rem;
+}
+
+.contenedor-clima {
+  margin-top: 2rem;
+  padding: 2rem;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 1rem;
+  color: white;
+  text-align: center; 
+  width: 100%;
+  max-width: 400px; /* Le damos un ancho máximo */
+}
+
+.contenedor-clima h2 {
+  font-size: 1.75rem; /* Hacemos el nombre de la ciudad más grande */
+  margin-bottom: 1rem;
+}
+
+.info-clima {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem; /* Aumentamos el espacio */
+}
+
+/* Ajustamos el tamaño del ícono del clima */
+.info-clima img {
+  width: 80px;
+  height: 80px;
+}
+
+.temperatura {
+  font-size: 5rem; /* Hacemos la temperatura más grande */
+  font-weight: bold;
+  color: white;
+  line-height: 1; /* Ajustamos la altura de línea */
+}
+
+.condicion {
+  font-size: 1.5rem; 
+  color: #cbd5e1; /* un gris más claro */
+  margin-top: 1rem;
+  text-transform: capitalize; /* Pone la primera letra en mayúscula */
+}
